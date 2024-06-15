@@ -12,7 +12,7 @@ import { ToastContainer, toast } from "react-toastify";
 import { GoogleAuthProvider } from "firebase/auth";
 import { useDispatch } from "react-redux";
 import { userLoginInfo } from "../../../State/Slice";
-import app from "../../../Authentication/firebaseconfig";
+import app from "../../../Authentication/firebaseConfig";
 
 const Login = () => {
   const dispatch = useDispatch();
